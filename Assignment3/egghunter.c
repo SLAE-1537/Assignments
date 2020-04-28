@@ -1,3 +1,10 @@
+/*
+This code has been created for completing the requirements of the SecurityTube Linux Assembly Expertcertification:
+  	
+   http://securitytube-­training.com/online-courses/securitytube-linux-assembly-expert/  
+
+Student ID: SLAE-1537
+*/
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
