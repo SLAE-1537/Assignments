@@ -22,3 +22,4 @@ objdump -d ./egghunter|grep '[0-9a-f]:'|grep -v 'file'|cut -f2 -d:|cut -f1-6 -d'
 ```
 ./egghunter
 ```
+.
